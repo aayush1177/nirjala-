@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+container {
+  padding:200px;
+  background: silver;
+  font family:arial;
+}
+.menu ul{
+   display:inline-flex;
+   margin:50px;
+}
+.menu ul li{
+   list-style:none;
+   margin:0 20px;
+}
+.logo img{
+      width:20px;
+      margin-top:-7px
+      margin-right:48
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 25px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:silver;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="container">
+</div>
+<div class="main">
+<h1>
+<div class="menu">
+<ul>
+<li class="logo"><img src="nirjala acharya.jpg"></li>
+<li>About<li>
+<li>Basic Information<li>
+<li>Hobbies<li>
+<li>Contact<li>
+</ul>
+<h1>MY INTRODUCTION</h1>
+<hr>
+<h2>HI!</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="me.jpg" height=500 width=700>
+<div class "row">
+   <div class="column">
+      <div class="content"
+  </div>
+      <h3>MY BASIC INFORMATION</h3>
+      <p>NAME:NIRJALA ACHARYA<br>
+         BIRTH DATE:2007/12/03<br>
+         STUDY'S AT:ST.XAVIER'S GODAVARI</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <h3>MY HOBBIES</h3>
+      <p>READING NOVELS<br>
+         TRAVELING<br>
+         POETRY<br></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+          <h3>My contact</h3>
+      <p>e-mail:acharyanirjala405@gmail.com</p>
+    </div>
+  </div>
+   
+  <!-- END GRID -->
+</div>
+
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
